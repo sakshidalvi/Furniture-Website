@@ -117,6 +117,13 @@ a:hover {
 h1:hover,h3:hover, p:hover{
     color:rgb(0, 238, 255);
 }
+.hide {
+  display: none;
+}
+.acclogo:hover + .hide {
+  display: block;
+  color: red;
+}
 
 .bed1{
 position: absolute;
